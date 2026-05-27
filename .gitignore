@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (太大，不上传)
+*.tgz
+*.zip
+*.tar.gz
+thchs30_data/
+aishell_data/
+
+# Model files
+*.pt
+*.pth
+*.bin
+
+# Temporary files
+temp_*
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local config
+.env
+config_local.py
